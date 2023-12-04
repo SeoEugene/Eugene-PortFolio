@@ -1,0 +1,262 @@
+.about__page1 {
+    width: 100%;
+    height: 870px;
+    display: flex;
+}
+
+.page1__left {
+    width: 50%;
+    height: 870px;
+    font-size: 1.8vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: end;
+    justify-content: center;
+    text-align: right;
+    padding-right: 100px;
+
+}
+
+.page1__left>div {
+    margin-bottom: 10px;
+}
+
+.about1__text1 {}
+
+.about1__text2 {}
+
+.page1__right {
+    width: 50%;
+    height: 870px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: start;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.about1__img {
+    width: 25vw;
+    height: 25vw;
+    background-image: url(../img/about1.png);
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
+
+@media (max-width: 1200px) {
+    .about__page1 {
+        display: block;
+    }
+
+    .page1__left {
+        width: 100%;
+        height: 300px;
+        align-content: center;
+        justify-content: end;
+        font-size: 2.5vw;
+        text-align: center;
+        padding-right: 0;
+
+    }
+
+    .page1__right {
+        width: 100%;
+        height: 570px;
+        align-content: center;
+        justify-content: flex-start;
+        padding-top: 50px;
+        padding-left: 0;
+
+    }
+}
+
+
+.aoubt__page2 {
+    width: 100%;
+    height: 1030px;
+    display: flex;
+}
+
+.page2__left {
+    width: 55%;
+    height: 1030px;
+    font-size: 1.5vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    line-height: 2;
+    text-align: right;
+}
+
+.page2__right {
+    width: 45%;
+    height: 1030px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about2__img {
+    width: 25vw;
+    height: 25vw;
+    background-image: url(../img/about2.png);
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+}
+
+@media (max-width: 1200px) {
+    .aoubt__page2 {
+        display: block;
+    }
+
+    .page2__left {
+        width: 100%;
+        height: 330px;
+        align-content: center;
+        justify-content: end;
+        font-size: 1.8vw;
+        text-align: center;
+    }
+
+    .page2__right {
+        width: 100%;
+        height: 700px;
+        align-items: flex-start;
+        justify-content: center;
+        padding-top: 50px;
+    }
+}
+
+
+.aoubt__page3 {
+    width: 100%;
+    height: 1030px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.about3__img {
+    width: 25vw;
+    height: 25vw;
+    background-image: url(../img/about3.png);
+    border-radius: 30px;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.about3__text {
+    text-align: center;
+    font-size: 1.8vw;
+
+}
+
+.about3__text>div {
+    margin-bottom: 30px;
+}
+
+
+/* slilde */
+.about__slide {
+    width: 100%;
+    height: 1030px;
+    border: 1px solid green;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.about__slide ul {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+
+}
+
+.about__slide ul:first-child {
+    margin-bottom: 80px;
+}
+
+.about__slide ul li {
+    width: 300px;
+}
+
+.about__slide ul li a {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* myskill */
+.myskill__wrap {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill__box {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-top: 1px solid #000;
+    margin-bottom: 60px;
+}
+
+.skill__box h4 {
+    margin-top: 5px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    font-size: 2vw;
+}
+
+.skill__box .skill {
+    margin-left: 60px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    border-left: 1px solid #000;
+}
+
+.skill__box .skill>ul {}
+
+.skill__box .skill>ul>li {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    position: relative;
+
+}
+
+.skill__box .skill>ul>li:before {
+    content: '';
+    width: 22px;
+    height: 22px;
+    border: 1px solid #000;
+    position: absolute;
+    top: 0;
+    left: -60px;
+    cursor: pointer;
+}

@@ -1,0 +1,50 @@
+/* @font-face {
+    font-family: 'Partizano';
+    src: url('../font/PartizenoRegular.woff') format('woff2'),
+url('../font/PartizenoRegular.woff2') format('woff');
+font-weight: normal;
+font-style: normal;
+} */
+
+
+
+/* nav logo */
+@font-face {
+    font-family: 'Partizeno';
+    src: url('../font/PartizenoRegular.eot');
+    src: url('../font/PartizenoRegular.eot?#iefix') format('embedded-opentype'),
+        url('../font/PartizenoRegular.woff2') format('woff2'),
+        url('../font/PartizenoRegular.woff') format('woff'),
+        url('../font/PartizenoRegular.svg#PartizenoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* nav list */
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* title font */
+@font-face {
+    font-family: "Serifbabe Regular";
+    src: url("https://db.onlinewebfonts.com/t/5c81770605e6c58a0617ef5a5f47012f.eot");
+    src: url("https://db.onlinewebfonts.com/t/5c81770605e6c58a0617ef5a5f47012f.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/5c81770605e6c58a0617ef5a5f47012f.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/5c81770605e6c58a0617ef5a5f47012f.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/5c81770605e6c58a0617ef5a5f47012f.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/5c81770605e6c58a0617ef5a5f47012f.svg#Serifbabe Regular")format("svg");
+}
+
+/* title font */
+@font-face {
+    font-family: "Century Schoolbook Monospace";
+    src: url("https://db.onlinewebfonts.com/t/92097750d0f2dff3f7791a623add485c.eot");
+    src: url("https://db.onlinewebfonts.com/t/92097750d0f2dff3f7791a623add485c.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/92097750d0f2dff3f7791a623add485c.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/92097750d0f2dff3f7791a623add485c.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/92097750d0f2dff3f7791a623add485c.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/92097750d0f2dff3f7791a623add485c.svg#Century Schoolbook Monospace")format("svg");
+}
+
+/* desc font */
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
