@@ -6,6 +6,10 @@ body.yellow #header {
     background-color: #f3f0e7;
 }
 
+body.yellow #nav {
+    background-color: #f3f0e7;
+}
+
 body.yellow .circle__721 {
     background-color: #F2F0E7;
 }
@@ -23,6 +27,10 @@ body.sky {
 
 body.sky #header {
     background: #363C49;
+}
+
+body.yelskylow #nav {
+    background-color: #363C49;
 }
 
 body.sky .circle__721 {
