@@ -1,5 +1,5 @@
 /* main */
-.title {
+/* .title {
     opacity: 0;
     transition: opacity 0.5s ease;
 }
@@ -21,7 +21,7 @@
 }
 
 /* contact */
-.contact__left {
+/* .contact__left {
     opacity: 0;
     transition: opacity 3s ease;
 }
@@ -44,7 +44,8 @@
     to {
         opacity: 1;
     }
-}
+} */
+
 
 
 /* Shooting Stars */
@@ -132,7 +133,7 @@
     animation-delay: 5.8s;
 }
 
-/* .star5 {
+.star5 {
     top: 50px;
     left: 1000px;
     background: #fff;
@@ -154,7 +155,7 @@
 .star6:after {
     border-color: transparent transparent transparent #fff;
     animation-delay: 5.8s;
-} */
+}
 
 @-webkit-keyframes shooting-ani {
     0% {}
