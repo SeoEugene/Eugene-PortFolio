@@ -7,8 +7,16 @@
     align-items: center;
 }
 
+.header__middle {
+    width: calc(100% - 800px);
+    height: 73px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .header__right {
-    width: calc(100% - 400px);
+    width: 400px;
     height: 73px;
     display: flex;
     justify-content: right;

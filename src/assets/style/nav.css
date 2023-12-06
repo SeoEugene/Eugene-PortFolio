@@ -14,7 +14,9 @@
     width: 84px;
     height: 24px;
     margin-top: 10px;
-    background-image: url(../img/logo_img.png);
+    background-image: url(../img/title.png);
+    background-position: center;
+    background-size: cover;
 }
 
 .logo_text {
@@ -30,6 +32,7 @@
     margin-top: 43px;
     margin-left: 43px;
     line-height: 170%;
+    position: relative;
 }
 
 .nav__list>ul {}
@@ -63,4 +66,34 @@
 
 .nav__list>ul>li>ul>li>ul {
     margin-left: 40px;
+}
+
+
+
+
+.nav__bottom {
+    position: absolute;
+    right: 50px;
+    margin: 0;
+    display: flex;
+}
+
+.background__change__dark {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background-image: url(../img/dark.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background__change__yllow {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background-image: url(../img/yellow.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }

@@ -1,26 +1,39 @@
+body {
+    position: relative;
+}
+
 #header {
     width: 100%;
     height: 73px;
     border-bottom: 1px solid #000;
     display: flex;
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
 #main {
     display: flex;
-    /* width: 100%;
-    height: calc(100vh - 73px); */
+    width: 100%;
+    position: absolute;
+    top: 73px;
+    left: 400px;
 }
 
 #nav {
     width: 400px;
+    height: 100vh;
     border-right: 1px solid #000;
-    position: relative;
+    position: fixed;
+    top: 73px;
+    left: 0;
 }
 
 
 #contents {
     width: calc(100% - 400px);
+    height: calc(100vh - 73px);
     position: relative;
 }
 

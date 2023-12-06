@@ -1,0 +1,186 @@
+/* main */
+.title {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.circle__box,
+.main__bottom,
+.dice,
+.star__box {
+    opacity: 0;
+    transition: opacity 5s ease;
+}
+
+.title.loaded,
+.circle__box.loaded,
+.main__bottom.loaded,
+.dice.loaded,
+.star__box.loaded {
+    opacity: 1;
+}
+
+/* contact */
+.contact__left {
+    opacity: 0;
+    transition: opacity 3s ease;
+}
+
+.contact__right {
+    opacity: 0;
+    transition: opacity 5s ease;
+}
+
+.contact__left.loaded,
+.contact__right.loaded {
+    opacity: 1;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Shooting Stars */
+.star__animation {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.star {
+    display: block;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #FFF;
+    top: 100px;
+    left: 100px;
+    position: relative;
+    transform-origin: 100% 0;
+    animation: star-ani 5s infinite ease-out;
+    animation-direction: normal;
+    opacity: 0;
+}
+
+.star:after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 4px;
+    border: 2px solid #F00;
+    border-width: 2px 150px 2px 150px;
+    border-color: transparent transparent transparent #FFF;
+    transform: rotate(-45deg) translate3d(1px, -1px, 0);
+    transform-origin: 0% 100%;
+    animation: shooting-ani 10s infinite ease-out;
+    animation-direction: normal;
+}
+
+.star8 {
+    top: 250px;
+    left: 200px;
+    background: #fff;
+    animation-delay: 3s;
+}
+
+.star8:after {
+    border-color: transparent transparent transparent #fff;
+    animation-delay: 3s;
+}
+
+.star9 {
+    top: 100px;
+    left: 1300px;
+    background: #fff;
+    animation-delay: 4.5s;
+}
+
+.star9:after {
+    border-color: transparent transparent transparent #fff;
+    animation-delay: 4.5s;
+}
+
+.star10 {
+    top: 50px;
+    left: 1000px;
+    background: #fff;
+    animation-delay: 5.8s;
+}
+
+.star10:after {
+    border-color: transparent transparent transparent #fff;
+    animation-delay: 5.8s;
+}
+
+.star11 {
+    top: 50px;
+    left: 1000px;
+    background: #fff;
+    animation-delay: 5.8s;
+}
+
+.star12:after {
+    border-color: transparent transparent transparent #fff;
+    animation-delay: 5.8s;
+}
+
+/* .star5 {
+    top: 50px;
+    left: 1000px;
+    background: #fff;
+    animation-delay: 5.8s;
+}
+
+.star5:after {
+    border-color: transparent transparent transparent #fff;
+    animation-delay: 5.8s;
+}
+
+.star6 {
+    top: 50px;
+    left: 1000px;
+    background: #fff;
+    animation-delay: 5.8s;
+}
+
+.star6:after {
+    border-color: transparent transparent transparent #fff;
+    animation-delay: 5.8s;
+} */
+
+@-webkit-keyframes shooting-ani {
+    0% {}
+
+    50% {
+        transform: scale(1) rotate(-45deg) translate(0px, 0px);
+    }
+
+    100% {
+        transform: scale(0.5) rotate(-45deg) translate(0px, -1px);
+    }
+}
+
+@-webkit-keyframes star-ani {
+    0% {
+        opacity: 0;
+        transform: scale(0) rotate(0) translate3d(0, 0, 0);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1) rotate(0) translate3d(-200px, 200px, 0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(1) rotate(0) translate3d(-300px, 300px, 0);
+    }
+}

@@ -111,7 +111,7 @@
 
 .circle__box {
     width: 100%;
-    height: 800px;
+    height: 600px;
     display: flex;
     position: relative;
 }
@@ -119,40 +119,63 @@
 .left__circle {
     width: 50%;
     display: flex;
-    justify-content: right;
     position: absolute;
     top: 50%;
-    left: 7%;
+    left: calc(50% - 250px);
+    transform: translate(-50%, -50%);
     background-color: #F2F0E7;
     z-index: 9999;
 }
 
+/* 721 -> 600 */
+/* 45.0625rem -> 37.5rem */
 .circle__721 {
-    width: 45.0625rem;
-    height: 45.0625rem;
+    width: 37.5rem;
+    height: 37.5rem;
     border: 1px solid #000;
     border-radius: 50%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #F2F0E7;
-
+    /* background-color: #F2F0E7; */
 }
 
+/* 700 -> 580 */
+/* 43.75rem -> 36.25rem */
 .circle__700 {
-    width: 43.75rem;
-    height: 43.75rem;
+    width: 36.25rem;
+    height: 36.25rem;
     background-image: url(../img/main700.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
+/* 600 -> 480 */
+/* 37.5rem -> 30rem */
+.circle__600 {
+    width: 30rem;
+    height: 30rem;
+    background-image: url(../img/main600.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* 500 -> 380 */
+/* 31.25rem -> 23.75rem */
 .circle__500 {
-    width: 31.25rem;
-    height: 31.25rem;
+    width: 23.75rem;
+    height: 23.75rem;
     background-color: #d9d9d9;
     border: 5px solid #000;
     border-radius: 50%;
@@ -162,10 +185,15 @@
     transform: translate(-50%, -50%);
 }
 
+/* 500 -> 380 */
+/* 31.25rem -> 23.75rem */
 .circle__500zoom {
-    width: 31.25rem;
-    height: 31.25rem;
+    width: 23.75rem;
+    height: 23.75rem;
     background-image: url(../img/main500.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 50%;
     position: absolute;
     top: 50%;
@@ -174,10 +202,15 @@
     z-index: 9999;
 }
 
+/* 350 -> 230 */
+/* 21.875rem -> 14.375rem */
 .circle__350img {
-    width: 21.875rem;
-    height: 21.875rem;
+    width: 14.375rem;
+    height: 14.375rem;
     background-image: url(../img/main350.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 50%;
     position: absolute;
     top: 50%;
@@ -193,27 +226,31 @@
     justify-content: left;
     position: absolute;
     top: 50%;
-    right: 7%;
+    left: calc(50% + 250px);
+    transform: translate(-50%, -50%);
     z-index: 9998;
 
 }
 
+/* 600 -> 510 */
+/* 39.3125rem -> 31.875rem */
 .circle__629 {
-    width: 39.3125rem;
-    height: 39.3125rem;
+    width: 31.875rem;
+    height: 31.875rem;
     background-image: url(../img/main629.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 50%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-position: center;
-    background-size: cover;
 }
 
 .main__bottom {
     width: 100%;
-    height: 120px;
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -222,8 +259,26 @@
     box-sizing: border-box;
 }
 
+.main__bottom a {
+    display: flex;
+    position: relative;
+}
+
+
 .bottome__left {
-    font-size: 24px;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__bottom ul {
+    position: absolute;
+    right: 50px;
+    bottom: 10px;
+    display: flex;
+    justify-content: right;
+    align-items: end;
 }
 
 .main__bottom ul li a {
@@ -250,6 +305,13 @@
 .main__bottom ul li:last-child a {
     width: 151px;
 
+}
+
+.star5 {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/star5.png);
+    margin-left: 5px;
 }
 
 @media (max-width:1600px) {
