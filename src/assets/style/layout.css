@@ -13,13 +13,6 @@ body {
     z-index: 1000;
 }
 
-#main {
-    display: flex;
-    width: 100%;
-    position: absolute;
-    top: 73px;
-    left: 400px;
-}
 
 #nav {
     width: 400px;
@@ -31,10 +24,14 @@ body {
 }
 
 
+
 #contents {
     width: calc(100% - 400px);
     height: calc(100vh - 73px);
-    position: relative;
+    position: absolute;
+    top: 73px;
+    left: 400px;
+    border: 1px solid red;
 }
 
 
@@ -55,11 +52,13 @@ body {
         left: 0;
     }
 
-
     #contents {
         width: 100%;
-
+        height: 100vh;
         align-items: center;
-
+        justify-content: center;
+        top: 0;
+        left: 0;
     }
+
 }

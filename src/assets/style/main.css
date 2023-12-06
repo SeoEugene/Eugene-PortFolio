@@ -315,17 +315,22 @@
 }
 
 @media (max-width:1600px) {
+    .circle__box {
+        /* justify-content: center;
+        align-items: center; */
+    }
+
     .left__circle {
         width: 100%;
-        display: flex;
-        justify-content: center;
-        left: 0;
+        left: 50%;
+
     }
 
     .right__circle {
         display: none;
     }
 }
+
 
 @media (max-width: 800px) {
     .dice {
@@ -335,4 +340,13 @@
     .star__box {
         display: none;
     }
+
+    .main__bottom {
+        display: none;
+    }
+
+    .left__circle {
+        /* height: auto; */
+    }
+
 }
