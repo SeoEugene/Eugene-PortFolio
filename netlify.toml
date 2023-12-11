@@ -7,7 +7,7 @@
 
 
 [[redirects]]
- from = "/html/portfoliolist.html"
+ from = "/portfoliolist.html"
   to = "/portfoliolist.html"
   status = 200
   force = true
