@@ -1,29 +1,29 @@
 [[redirects]]
- from = "/portfoliolist"
+ from = "/html/portfoliolist.html"
   to = "/html/portfoliolist.html"
   status = 200
   force = true
   
 [[redirects]]
- from = "/portfoliomore"
+ from = "/html/portfoliomore.html"
   to = "/html/portfoliomore.html"
   status = 200
   force = true
 
 [[redirects]]
- from = "/aboutme"
+ from = "/html/aboutme.html"
   to = "/html/aboutme.html"
   status = 200
   force = true
 
   [[redirects]]
- from = "/myefferc"
+ from ="/html/myeffert.html"
   to = "/html/myeffert.html"
   status = 200
   force = true
 
     [[redirects]]
- from = "/contact"
+ from = "/html/contact.html"
   to = "/html/contact.html"
   status = 200
   force = true
