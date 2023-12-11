@@ -8,30 +8,30 @@
 
 [[redirects]]
  from = "/html/portfoliolist.html"
-  to = "/html/portfoliolist.html"
+  to = "/portfoliolist.html"
   status = 200
   force = true
   
 [[redirects]]
  from = "/html/portfoliomore.html"
-  to = "/html/portfoliomore.html"
+  to = "/portfoliomore.html"
   status = 200
   force = true
 
 [[redirects]]
  from = "/html/aboutme.html"
-  to = "/html/aboutme.html"
+  to = "/aboutme.html"
   status = 200
   force = true
 
   [[redirects]]
  from ="/html/myeffert.html"
-  to = "/html/myeffert.html"
+  to = "/myeffert.html"
   status = 200
   force = true
 
     [[redirects]]
  from = "/html/contact.html"
-  to = "/html/contact.html"
+  to = "/contact.html"
   status = 200
   force = true
