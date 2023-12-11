@@ -2,6 +2,13 @@
 command = " npm run build"
 publish="/build"
 base="/"
+
+[[redirects]]
+ from = "/*"
+  to = "index.html"
+  status = 200
+
+
 [[redirects]]
  from = "/html/portfoliolist.html"
   to = "/html/portfoliolist.html"
