@@ -45,3 +45,7 @@ warning: in the working copy of 'package.json', LF will be replaced by CRLF the 
 warning: in the working copy of 'src/index.html', LF will be replaced by CRLF the next time Git touches it
 `git config --global core.autocrlf input`
 
+
+## 네트리파이 배포시 page not found 
+https://docs.netlify.com/routing/redirects/#syntax-for-the-redirects-file
+

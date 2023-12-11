@@ -1,0 +1,29 @@
+[[redirects]]
+ from = "/portfoliolist"
+  to = "/html/portfoliolist.html"
+  status = 200
+  force = true
+  
+[[redirects]]
+ from = "/portfoliomore"
+  to = "/html/portfoliomore.html"
+  status = 200
+  force = true
+
+[[redirects]]
+ from = "/aboutme"
+  to = "/html/aboutme.html"
+  status = 200
+  force = true
+
+  [[redirects]]
+ from = "/myefferc"
+  to = "/html/myeffert.html"
+  status = 200
+  force = true
+
+    [[redirects]]
+ from = "/contact"
+  to = "/html/contact.html"
+  status = 200
+  force = true
