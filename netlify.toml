@@ -13,25 +13,25 @@
   force = true
   
 [[redirects]]
- from = "/html/portfoliomore.html"
+ from = "/portfoliomore.html"
   to = "/portfoliomore.html"
   status = 200
   force = true
 
 [[redirects]]
- from = "/html/aboutme.html"
+ from = "/aboutme.html"
   to = "/aboutme.html"
   status = 200
   force = true
 
   [[redirects]]
- from ="/html/myeffert.html"
+ from ="/myeffert.html"
   to = "/myeffert.html"
   status = 200
   force = true
 
     [[redirects]]
- from = "/html/contact.html"
+ from = "/contact.html"
   to = "/contact.html"
   status = 200
   force = true
